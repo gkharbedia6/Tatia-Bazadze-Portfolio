@@ -11,20 +11,20 @@ import { RouterModule } from '@angular/router';
     >
       <h1
         [routerLink]="['/']"
-        class="cursor-pointer font-primary text-[20px] font-bold"
+        class="cursor-pointer font-primary text-[18px] font-bold"
       >
         TATIA BAZADZE
       </h1>
       <div class="flex flex-row gap-3">
         <h3
           [routerLink]="['/about']"
-          class="cursor-pointer hover:opacity-70 font-primary text-[15px] font-bold"
+          class="cursor-pointer hover:opacity-70 font-primary text-[15px] "
         >
           ABOUT
         </h3>
         <h3
           [routerLink]="['/contact']"
-          class="cursor-pointer hover:opacity-70 font-primary text-[15px] font-bold"
+          class="cursor-pointer hover:opacity-70 font-primary text-[15px] "
         >
           CONTACT
         </h3>

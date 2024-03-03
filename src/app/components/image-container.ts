@@ -20,7 +20,7 @@ import { IImage } from 'src/types/image.model';
     </div>
 
     <h2
-      class="pt-4 text-center group-hover:opacity-100 opacity-0 transition-all duration-300 font-primary px-4 text-[25px] "
+      class="pt-4 text-center group-hover:opacity-100 font-bold opacity-0 transition-all duration-300 font-primary px-4 text-[25px] "
     >
       {{ imageData.title }}
     </h2>
