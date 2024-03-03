@@ -50,7 +50,6 @@ export class ImageContainerComponent {
   isLoaded = false;
 
   onImageLoad() {
-    console.log('loaded');
     this.isLoaded = true;
   }
 }

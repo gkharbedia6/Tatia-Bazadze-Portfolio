@@ -3,7 +3,7 @@ import { IImage } from 'src/types/image.model';
 export const images: IImage[] = [
   {
     id: 1,
-    imageUrl: 'assets/images/1.png',
+    imageUrl: 'assets/images/1-med.png',
     imageUrlResized: 'assets/images/1-resized.png',
     title: 'Encompassing Love',
     description: [
@@ -16,7 +16,7 @@ export const images: IImage[] = [
   },
   {
     id: 2,
-    imageUrl: 'assets/images/2.png',
+    imageUrl: 'assets/images/2-med.png',
     imageUrlResized: 'assets/images/2-resized.png',
 
     title: 'Fusion',
@@ -29,7 +29,7 @@ export const images: IImage[] = [
   },
   {
     id: 3,
-    imageUrl: 'assets/images/3.png',
+    imageUrl: 'assets/images/3-med.png',
     imageUrlResized: 'assets/images/3-resized.png',
 
     title: 'Little Red',
@@ -44,7 +44,7 @@ export const images: IImage[] = [
   },
   {
     id: 4,
-    imageUrl: 'assets/images/4.png',
+    imageUrl: 'assets/images/4-med.png',
     imageUrlResized: 'assets/images/4-resized.png',
 
     title: 'Untitled',
@@ -57,7 +57,7 @@ export const images: IImage[] = [
   },
   {
     id: 5,
-    imageUrl: 'assets/images/5.png',
+    imageUrl: 'assets/images/5-med.png',
     imageUrlResized: 'assets/images/5-resized.png',
 
     title: 'Bloom: A Tapestry of Life and Femininity',
@@ -72,7 +72,7 @@ export const images: IImage[] = [
   },
   {
     id: 6,
-    imageUrl: 'assets/images/6.png',
+    imageUrl: 'assets/images/6-med.png',
     imageUrlResized: 'assets/images/6-resized.png',
 
     title: 'S2014',
@@ -85,7 +85,7 @@ export const images: IImage[] = [
   },
   {
     id: 7,
-    imageUrl: 'assets/images/7.png',
+    imageUrl: 'assets/images/7-med.png',
     imageUrlResized: 'assets/images/7-resized.png',
 
     title: 'Temporal',
@@ -100,7 +100,7 @@ export const images: IImage[] = [
   },
   {
     id: 8,
-    imageUrl: 'assets/images/8.png',
+    imageUrl: 'assets/images/8-med.png',
     imageUrlResized: 'assets/images/8-resized.png',
 
     title: 'Horizon 1',
@@ -113,7 +113,7 @@ export const images: IImage[] = [
   },
   {
     id: 9,
-    imageUrl: 'assets/images/9.png',
+    imageUrl: 'assets/images/9-med.png',
     imageUrlResized: 'assets/images/9-resized.png',
 
     title: 'Horizon 2',
@@ -126,7 +126,7 @@ export const images: IImage[] = [
   },
   {
     id: 10,
-    imageUrl: 'assets/images/10.png',
+    imageUrl: 'assets/images/10-med.png',
     imageUrlResized: 'assets/images/10-resized.png',
 
     title: 'Horizon 3',
@@ -139,7 +139,7 @@ export const images: IImage[] = [
   },
   {
     id: 11,
-    imageUrl: 'assets/images/11.png',
+    imageUrl: 'assets/images/11-med.png',
     imageUrlResized: 'assets/images/11-resized.png',
 
     title: 'Green Passion : A Harmonious Symphony of Earth and Cosmos',
@@ -154,7 +154,7 @@ export const images: IImage[] = [
   },
   {
     id: 12,
-    imageUrl: 'assets/images/12.png',
+    imageUrl: 'assets/images/12-med.png',
     imageUrlResized: 'assets/images/12-resized.png',
 
     title: 'Vivid',
@@ -167,7 +167,7 @@ export const images: IImage[] = [
   },
   {
     id: 13,
-    imageUrl: 'assets/images/13.png',
+    imageUrl: 'assets/images/13-med.png',
     imageUrlResized: 'assets/images/13-resized.png',
 
     title: 'Simple',
@@ -181,7 +181,7 @@ export const images: IImage[] = [
   },
   {
     id: 14,
-    imageUrl: 'assets/images/14.png',
+    imageUrl: 'assets/images/14-med.png',
     imageUrlResized: 'assets/images/14-resized.png',
 
     title: 'Harmony',
@@ -194,7 +194,7 @@ export const images: IImage[] = [
   },
   {
     id: 15,
-    imageUrl: 'assets/images/15.png',
+    imageUrl: 'assets/images/14-med.png',
     imageUrlResized: 'assets/images/15-resized.png',
 
     title: 'Setenity',
@@ -208,7 +208,7 @@ export const images: IImage[] = [
   },
   {
     id: 16,
-    imageUrl: 'assets/images/16.png',
+    imageUrl: 'assets/images/16-med.png',
     imageUrlResized: 'assets/images/16-resized.png',
 
     title: 'Sea In My Mind',
