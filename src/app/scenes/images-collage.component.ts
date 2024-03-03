@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ImageContainerComponent } from './image-container';
+import { ImageContainerComponent } from '../components/image-container';
 import { images } from '../../data-access/images';
 import { IImage } from 'src/types/image.model';
 

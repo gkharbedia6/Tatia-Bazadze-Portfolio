@@ -9,7 +9,7 @@ import { IImage } from 'src/types/image.model';
   template: ` <div class="group flex items-center justify-center flex-col ">
     <div
       class="overflow-hidden"
-      (click)="onImageClick(5)"
+      (click)="onImageClick(imageData.id)"
       [ngStyle]="{ width: width }"
     >
       <img
