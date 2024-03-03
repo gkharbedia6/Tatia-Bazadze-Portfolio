@@ -8,12 +8,12 @@ import { IImage } from 'src/types/image.model';
   imports: [CommonModule],
   template: ` <div class="group flex items-center justify-center flex-col ">
     <div
-      class="overflow-hidden"
-      (click)="onImageClick(imageData.id)"
+      style=""
+      class="overflow-hidden image-shadow"
       [ngStyle]="{ width: width }"
     >
       <img
-        class="hover:scale-125  cursor-pointer transition-all duration-[1500ms] ease-in-out"
+        class="hover:scale-110   cursor-pointer transition-all duration-[1500ms] ease-in-out"
         [src]="imageData.imageUrl"
         alt="Image 1"
       />
@@ -34,9 +34,4 @@ import { IImage } from 'src/types/image.model';
 export class ImageContainerComponent {
   @Input({ required: true }) imageData: IImage = {} as IImage;
   @Input({ required: true }) width: string = '';
-  @Output() imageClicked = new EventEmitter<number>();
-
-  onImageClick(imageId: number) {
-    this.imageClicked.emit(imageId);
-  }
 }

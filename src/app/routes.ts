@@ -18,13 +18,7 @@ export const ROUTES: Route[] = [
             (c) => c.ImagesCollagesComponent
           ),
       },
-      {
-        path: 'images/:id',
-        loadComponent: () =>
-          import('../app/scenes/image-details.component').then(
-            (c) => c.ImageDetailsComponent
-          ),
-      },
+
       {
         path: 'contact',
         loadComponent: () =>
