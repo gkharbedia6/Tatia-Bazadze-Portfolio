@@ -135,11 +135,9 @@ import { IImage } from 'src/types/image.model';
 export class ImagesCollagesComponent {
   imagesData: IImage[] = images;
 
-  constructor(private _router: Router) {
-    console.log(ImageData);
-  }
+  constructor(private _router: Router) {}
 
   onImageClick(imageId: number) {
-    this._router.navigateByUrl(`image/${imageId}`);
+    this._router.navigateByUrl(`images/${imageId}`);
   }
 }

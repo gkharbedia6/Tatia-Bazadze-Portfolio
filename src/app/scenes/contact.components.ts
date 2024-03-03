@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   template: `<div
     class="flex w-full px-36 py-32 h-fit gap-3 flex-col justify-start items-start"
   >
+    <h2 class="text-[13px] mb-5 font-primary ">Based in Tbilisi, Georgia</h2>
     <h2 class="text-[20px] font-primary font-bold">Contact me via email</h2>
     <a
       class="cursor-pointer hover:border-b hover:border-black text-[13px] font-primary"

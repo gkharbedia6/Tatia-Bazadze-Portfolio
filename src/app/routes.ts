@@ -19,7 +19,7 @@ export const ROUTES: Route[] = [
           ),
       },
       {
-        path: 'image/:id',
+        path: 'images/:id',
         loadComponent: () =>
           import('../app/scenes/image-details.component').then(
             (c) => c.ImageDetailsComponent
