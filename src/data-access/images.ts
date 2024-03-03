@@ -4,6 +4,7 @@ export const images: IImage[] = [
   {
     id: 1,
     imageUrl: 'assets/images/1.png',
+    imageUrlResized: 'assets/images/1-resized.png',
     title: 'Encompassing Love',
     description: [
       'Painting that transcends its darkness with a depth that speaks to the heart. With every side revealing intricate textures and patterns, it offers viewers a multi-dimensional experience of love. The textured surface invites touch, adding a tactile dimension to the exploration of emotions.',
@@ -16,6 +17,8 @@ export const images: IImage[] = [
   {
     id: 2,
     imageUrl: 'assets/images/2.png',
+    imageUrlResized: 'assets/images/2-resized.png',
+
     title: 'Fusion',
     description: [
       'Contemporary twist on the classic still life.Each brushstroke and splash of color captures the essence of the flowers, evoking a sense of energy and movement.beauty of nature through a fresh and unconventional lens.',
@@ -27,6 +30,8 @@ export const images: IImage[] = [
   {
     id: 3,
     imageUrl: 'assets/images/3.png',
+    imageUrlResized: 'assets/images/3-resized.png',
+
     title: 'Little Red',
     description: [
       'In "Little Red," I delve into the realm of abstract expressionism with bold strokes and vivid hues, creating a painting that pulsates with raw emotion and intensity. At its core, this piece is a visual symphony, each brushstroke a note in a larger composition that speaks to the depths of the human experience.',
@@ -40,6 +45,8 @@ export const images: IImage[] = [
   {
     id: 4,
     imageUrl: 'assets/images/4.png',
+    imageUrlResized: 'assets/images/4-resized.png',
+
     title: 'Untitled',
     description: [
       "Visual narrative of raw feelings and unfiltered expression. Each brushstroke carrying the weight of the artist's inner turmoil and elation. Swirls of paint intertwine, forming a chaotic yet harmonious composition that mirrors the complexity of human emotion.",
@@ -51,6 +58,8 @@ export const images: IImage[] = [
   {
     id: 5,
     imageUrl: 'assets/images/5.png',
+    imageUrlResized: 'assets/images/5-resized.png',
+
     title: 'Bloom: A Tapestry of Life and Femininity',
     description: [
       "At the heart of 'Bloom: A Tapestry of Life and Femininity' lies the enigmatic symbolism of the flower, a universal motif representing growth, beauty, and the cyclical nature of existence. Here, the flower serves as a potent symbol of femininity, with its delicate petals unfurling in a gesture of both vulnerability and strength.",
@@ -64,6 +73,8 @@ export const images: IImage[] = [
   {
     id: 6,
     imageUrl: 'assets/images/6.png',
+    imageUrlResized: 'assets/images/6-resized.png',
+
     title: 'S2014',
     description: [
       "Painting that delves into the depths of each individual's personal struggles and mental battles. Cast in shades of gray and black, landscape of chaotic strokes and intricate patterns.Some areas are marked by sharp contrasts and chaotic patterns, mirroring the intensity of inner conflict, while others exude a sense of quiet introspection and acceptance.It is a raw and unfiltered portrayal of the inner battles that define our existence, inviting introspection and empathy from those who dare to confront its depths.",
@@ -75,6 +86,8 @@ export const images: IImage[] = [
   {
     id: 7,
     imageUrl: 'assets/images/7.png',
+    imageUrlResized: 'assets/images/7-resized.png',
+
     title: 'Temporal',
     description: [
       "Time seems to bend and weave around the lives of its inhabitants. The figures within the clock represent the temporal nature of existence, with some embracing joyous moments, while others appear contemplative or burdened by the weight of time's passage.",
@@ -88,6 +101,8 @@ export const images: IImage[] = [
   {
     id: 8,
     imageUrl: 'assets/images/8.png',
+    imageUrlResized: 'assets/images/8-resized.png',
+
     title: 'Horizon 1',
     description: [
       'A contemporary abstract painting that captures the essence of hope and optimism with its vivid colors and dynamic brushstrokes. The horizon is depicted as a beacon of possibility, boundless potential of the future.',
@@ -99,6 +114,8 @@ export const images: IImage[] = [
   {
     id: 9,
     imageUrl: 'assets/images/9.png',
+    imageUrlResized: 'assets/images/9-resized.png',
+
     title: 'Horizon 2',
     description: [
       'A contemporary abstract painting that captures the essence of hope and optimism with its vivid colors and dynamic brushstrokes. The horizon is depicted as a beacon of possibility, boundless potential of the future.',
@@ -110,6 +127,8 @@ export const images: IImage[] = [
   {
     id: 10,
     imageUrl: 'assets/images/10.png',
+    imageUrlResized: 'assets/images/10-resized.png',
+
     title: 'Horizon 3',
     description: [
       'A contemporary abstract painting that captures the essence of hope and optimism with its vivid colors and dynamic brushstrokes. The horizon is depicted as a beacon of possibility, boundless potential of the future.',
@@ -121,6 +140,8 @@ export const images: IImage[] = [
   {
     id: 11,
     imageUrl: 'assets/images/11.png',
+    imageUrlResized: 'assets/images/11-resized.png',
+
     title: 'Green Passion : A Harmonious Symphony of Earth and Cosmos',
     description: [
       'In my painting, "Green Passion," I embark on a journey that transcends the boundaries of the earthly realm, delving into the cosmic expanse that surrounds us. Inspired by the interconnectedness of the universe and the profound harmony that exists between the terrestrial and the celestial, this piece is a visual exploration of the infinite depths of existence.',
@@ -134,6 +155,8 @@ export const images: IImage[] = [
   {
     id: 12,
     imageUrl: 'assets/images/12.png',
+    imageUrlResized: 'assets/images/12-resized.png',
+
     title: 'Vivid',
     description: [
       'Bursts with bold colors and abstract forms in a dynamic still life composition. Vibrant hues across the painting, creating an electrifying display of energy and movement. The arrangement of objects is stylized and abstract, with exaggerated shapes and playful distortions.A bold and expressive lens, transforming the ordinary into a kaleidoscope of vibrant delight.',
@@ -145,6 +168,8 @@ export const images: IImage[] = [
   {
     id: 13,
     imageUrl: 'assets/images/13.png',
+    imageUrlResized: 'assets/images/13-resized.png',
+
     title: 'Simple',
     description: [
       "The contrast between the purity of white and the boldness of red creates a striking visual impact, drawing the viewer's gaze to the heart of the painting. The laundry line, with its neatly hung garments, symbolizes the rhythm of everyday life and the beauty found in the mundane.",
@@ -157,6 +182,8 @@ export const images: IImage[] = [
   {
     id: 14,
     imageUrl: 'assets/images/14.png',
+    imageUrlResized: 'assets/images/14-resized.png',
+
     title: 'Harmony',
     description: [
       'Painting that envelops you in a world of tranquility and serenity creating a sense of softness and warmth. The gentle strokes and seamless blending of colors evoke a feeling of peace and balance. As you gaze upon it, you can almost feel the soothing energy radiating from the canvas, washing over you with waves of calmness.',
@@ -168,6 +195,8 @@ export const images: IImage[] = [
   {
     id: 15,
     imageUrl: 'assets/images/15.png',
+    imageUrlResized: 'assets/images/15-resized.png',
+
     title: 'Setenity',
     description: [
       '"Serenity" captures the essence of tranquility with its soft palette that invites the viewer to immerse themselves in its serene embrace.The composition is airy and open, allowing the mind to wander and find solace in the simplicity of the scene.',
@@ -180,6 +209,8 @@ export const images: IImage[] = [
   {
     id: 16,
     imageUrl: 'assets/images/16.png',
+    imageUrlResized: 'assets/images/16-resized.png',
+
     title: 'Sea In My Mind',
     description: [
       "This painting is not a mere representation of the sea; it's an exploration of the intangible qualities that stir within me as an artist when confronted with the vastness and dynamism of the ocean.",

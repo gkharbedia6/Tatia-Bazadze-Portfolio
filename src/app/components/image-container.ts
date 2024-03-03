@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { IImage } from 'src/types/image.model';
 
 @Component({
@@ -9,13 +9,20 @@ import { IImage } from 'src/types/image.model';
   template: ` <div class="group flex items-center justify-center flex-col ">
     <div
       style=""
-      class="overflow-hidden image-shadow"
-      [ngStyle]="{ width: width }"
+      class="overflow-hidden image-shadow image-placeholder "
+      [ngClass]="{ 'placeholder-loaded': isLoaded }"
+      [ngStyle]="{
+        width: width,
+        'background-image': 'url(' + imageData.imageUrlResized + ')'
+      }"
     >
       <img
-        class="hover:scale-110   cursor-pointer transition-all duration-[1500ms] ease-in-out"
+        [ngClass]="{ 'image-loaded': isLoaded }"
+        class="hover:scale-110 opacity-0  cursor-pointer transition-all duration-[1500ms] ease-in-out"
         [src]="imageData.imageUrl"
-        alt="Image 1"
+        [alt]="imageData.title"
+        loading="lazy"
+        (load)="onImageLoad()"
       />
     </div>
 
@@ -40,4 +47,10 @@ import { IImage } from 'src/types/image.model';
 export class ImageContainerComponent {
   @Input({ required: true }) imageData: IImage = {} as IImage;
   @Input({ required: true }) width: string = '';
+  isLoaded = false;
+
+  onImageLoad() {
+    console.log('loaded');
+    this.isLoaded = true;
+  }
 }

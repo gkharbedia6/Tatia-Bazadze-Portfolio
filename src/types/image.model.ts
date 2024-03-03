@@ -1,6 +1,7 @@
 export interface IImage {
   id: number;
-  imageUrl: any;
+  imageUrl: string;
+  imageUrlResized: string;
   title: string;
   description: string[];
   dimensions: string;
