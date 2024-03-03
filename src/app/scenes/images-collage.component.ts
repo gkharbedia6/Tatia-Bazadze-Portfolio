@@ -9,7 +9,7 @@ import { IImage } from 'src/types/image.model';
   standalone: true,
   imports: [ImageContainerComponent],
   template: `
-    <div class="w-full min-h-screen flex flex-col px-20 py-20 gap-[100px]">
+    <div class="w-full min-h-screen flex flex-col px-20 py-20 gap-[75px]">
       <div
         class="flex relative max-w-fit gap-[50px] m-auto  flex-row items-center justify-center"
       >
