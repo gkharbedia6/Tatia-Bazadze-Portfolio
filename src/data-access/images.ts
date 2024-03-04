@@ -194,7 +194,7 @@ export const images: IImage[] = [
   },
   {
     id: 15,
-    imageUrl: 'assets/images/14-med.png',
+    imageUrl: 'assets/images/15-med.png',
     imageUrlResized: 'assets/images/15-resized.png',
 
     title: 'Setenity',
